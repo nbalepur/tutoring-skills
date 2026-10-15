@@ -23,7 +23,27 @@ You should already have been assigned a tutoring strategy from education to work
 
 Add some class materials to the `/materials` folder, such as lecture notes, a reading, a study guide, or a transcript.
 
-@Zoey add more details and what other examples are
+We have already added materials from [Python for Everybody](https://www.py4e.com/) that you can use as an example.
+
+Good class materials should:
+
+- focus on one topic, such as a single chapter or lecture
+- be in Markdown (`.md`) or plain text (`.txt`), or a PDF with selectable text
+- include concepts, definitions, examples, or code that you can be tested on
+- be written by you or openly licensed, with the source and license noted at the top of the file
+
+Here are some examples of materials you can add:
+
+| Type             | Example                                          | Source                                                                    |
+| ---------------- | ------------------------------------------------ | ------------------------------------------------------------------------- |
+| Lecture notes    | CS50 Week 6: Python                              | [CS50](https://cs50.harvard.edu/x/)                                       |
+| Textbook chapter | Think Python, Chapter 5: Conditionals and Recursion | [Think Python](https://allendowney.github.io/ThinkPython/)             |
+| Reading          | Composing Programs, Section 1.2: Elements of Programming | [Composing Programs](https://www.composingprograms.com/3ed/)      |
+| Lecture notes    | Missing Semester: Version Control (Git)          | [Missing Semester](https://missing.csail.mit.edu/)                        |
+| Study guide      | Your own notes or review sheet from a class      |                                                                        |
+
+We recommend naming your files clearly, such as `materials/py4e-ch05-loops.md`, so that they're easier for your AI coding agent to find!
+
 
 ### 3. Implement your assigned strategy
 
