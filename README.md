@@ -17,7 +17,22 @@ You should already have been assigned a tutoring strategy from education to work
 
 ### 1. Set up your repository and coding agent
 
-@Hope add instructions
+1. **Clone or download the repository:**
+   Clone the repository locally:
+   ```bash
+   git clone https://github.com/nbalepur/tutoring-skills.git
+   cd tutoring-skills
+   ```
+   Or download and extract the repository ZIP file from GitHub.
+
+2. **Set up a coding agent:**
+   Make sure you have an AI coding agent installed and set up (recommended through an IDE):
+   - [Google Antigravity](https://antigravity.google/download#antigravity-ide)
+   - [Cursor](https://cursor.com/)
+   - [VS Code](https://code.visualstudio.com/), etc.
+
+3. **Open the repository in your IDE:**
+   Open the `tutoring-skills` folder in your chosen IDE so your coding agent can access the project files and tutoring skills.
 
 ### 2. Add class materials
 
@@ -113,7 +128,7 @@ Try at least one unexpected or incomplete answer during the session. If the agen
 ## Contributors
 
 - Nishant Balepur
-- Dayeon Ki
-- Yu Hou
+- Dayeon (Zoey) Ki
+- Yu (Hope) Hou
 
 Add your name here!
