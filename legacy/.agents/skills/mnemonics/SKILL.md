@@ -32,6 +32,7 @@ until the source and learning target are clear.
    - acronyms or acrostics for short ordered sets;
    - a linked story for longer sequences;
    - spatial placement in a familiar location for grouped information.
+   - only show me one mnemonic at a time
 3. **Create candidates**
    Produce two or three concise candidates for each target. Prefer concrete,
    exaggerated, sensory, unusual, and active associations that are easy to
