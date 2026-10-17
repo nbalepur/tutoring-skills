@@ -1,0 +1,34 @@
+R: What would you like to learn or practice, and what should you be able to explain or solve by the end?
+
+P: Teach me about LLMs
+
+R: To tailor this, what do you already understand about LLMs, and what are you most curious about—how they work, how to use them, or their limitations?
+
+P: How do they work?
+
+R: LLMs—large language models—work by predicting the next token in a sequence.
+
+A simplified pipeline looks like this:
+
+1. **Text becomes tokens.**  
+   A token is a word, part of a word, punctuation mark, or symbol. For example, “unbelievable” might be split into pieces such as `un`, `believ`, and `able`.
+
+2. **Tokens become numbers.**  
+   Each token is converted into a vector—a long list of numbers representing useful patterns and relationships.
+
+3. **A Transformer processes the context.**  
+   The model uses a mechanism called **attention** to decide which earlier tokens matter most for interpreting each token. In “The dog chased the ball because it was round,” attention helps connect “it” with “ball.”
+
+4. **The model predicts probabilities.**  
+   Given the context, it produces a probability distribution over possible next tokens. It might assign:
+   - `is`: 40%
+   - `was`: 20%
+   - `can`: 5%
+   - and so on.
+
+5. **A token is selected and added.**  
+   The model repeats the process until it has produced a complete response. It does not retrieve an answer from a database by default; it generates one token at a time based on patterns learned during training.
+
+During **training**, the model reads enormous amounts of text and repeatedly practices predicting missing or next tokens. Its internal numerical parameters are adjusted when its predictions are wrong. Later, additional training can make its answers more helpful, safer, and better aligned with instructions.
+
+What do you think the model has actually “learned” after seeing billions of examples of text?
